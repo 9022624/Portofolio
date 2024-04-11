@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <span class="logo">Noureldeen Kurdi</span>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <span class="logo">Noureldeen Kurdi</span>
+        <span class="hamburger-menu">
+            <span class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <span class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </span>
+        </span>
+    </nav>
+    <section id="profile">
+
+        <span class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Noureldeen Kurdi</h1>
+            <p class="section__text__p2">SOFTWARE DEVELOPER</p>
+            <span class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Document6.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </span>
+            <span id="socials-container">
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/9022624'" />
+            </span>
+        </span>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <span class="section-container">
+            <span class="about-details-container">
+                <span class="about-containers">
+                    <span class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>6+ maanden <br />Assistant Business Services</p>
+                    </span>
+                    <span class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>MBO 4<br />SOFTWARE DEVELOPER</p>
+                    </span>
+                </span>
+                <span class="text-container">
+                    <p>
+                        Me naam is Noureldeen ben 20 Jaar oud. Heb diploma van Assistant Business Services dat is MBO 2.
+                        Nu ben ik bezig met Software Developer MBO 4 leerjaar 1 op TCR (Techniek College Rotterdam)
+                        Heb het daar naar me zin helaas soms heb je drempels maar toch als je kan de drempel door heen
+                        is het niet
+                        moeilijk.
+
+
+
+                    </p>
+                </span>
+            </span>
+        </span>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <span class="experience-details-container">
+            <span class="about-containers">
+                <span class="details-container">
+                    <h2 class="experience-sub-title">SOFTWARE DEVELOPER</h2>
+                    <span class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </span>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </span>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>SASS</h3>
+                                <p>Basic</p>
+                            </span>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </span>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>JavaScript</h3>
+                                <p> Basic</p>
+                            </span>
+                        </article>
+                    </span>
+                </span>
+                <span class="details-container">
+                    <h2 class="experience-sub-title">Assistant Business Services</h2>
+                    <span class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>Facturen Bon verwerken</h3>
+                                <p>Intermediate</p>
+                            </span>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <span>
+                                <h3>Bestellingen verwerken</h3>
+                                <p>Intermediate</p>
+                            </span>
+                        </article>
+                    </span>
+                </span>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+                    onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <span class="experience-details-container">
+            <span class="about-containers">
+                <span class="details-container color-container">
+                    <span class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                    </span>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <span class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Live Demo
+                        </button>
+                    </span>
+                </span>
+                <span class="details-container color-container">
+                    <span class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                    </span>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <span class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Live Demo
+                        </button>
+                    </span>
+                </span>
+                <span class="details-container color-container">
+                    <span class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </span>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <span class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                            Live Demo
+                        </button>
+                    </span>
+                </span>
+            </span>
+        </span>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Neem contact op</p>
+        <h1 class="title">Contact Me</h1>
+        <span class="contact-info-upper-container">
+            <span class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:noureldeenkurdi08@gmail.com">noureldeenkurdi08@gmail.com</a></p>
+            </span>
+        </span>
+    </section>
+    <footer>
+        <nav>
+            <span class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </span>
+        </nav>
+        <p>Copyright &#169; 2024 Noureldeen. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
