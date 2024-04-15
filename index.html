@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+    <link rel="stylesheet" href="style.scss" type="text/scss" media="screen">
+</header>
 
 <body>
     <nav id="desktop-nav">
@@ -90,74 +91,77 @@
         </span>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <span class="experience-details-container">
-            <span class="about-containers">
-                <span class="details-container">
-                    <h2 class="experience-sub-title">SOFTWARE DEVELOPER</h2>
-                    <span class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>HTML</h3>
-                                <p>Basic</p>
-                            </span>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>CSS</h3>
-                                <p>Basic</p>
-                            </span>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>SASS</h3>
-                                <p>Basic</p>
-                            </span>
-                        </article>
+    <main>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <span class="experience-details-container">
+                <span class="about-containers">
+                    <span class="details-container">
+                        <h2 class="experience-sub-title">SOFTWARE DEVELOPER</h2>
+                        <span class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>HTML</h3>
+                                    <p>Basic</p>
+                                </span>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>CSS</h3>
+                                    <p>Basic</p>
+                                </span>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>SASS</h3>
+                                    <p>Basic</p>
+                                </span>
+                            </article>
 
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>Git</h3>
-                                <p>Basic</p>
-                            </span>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>JavaScript</h3>
-                                <p> Basic</p>
-                            </span>
-                        </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>Git</h3>
+                                    <p>Basic</p>
+                                </span>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>JavaScript</h3>
+                                    <p> Basic</p>
+                                </span>
+                            </article>
+                        </span>
                     </span>
-                </span>
-                <span class="details-container">
-                    <h2 class="experience-sub-title">Assistant Business Services</h2>
-                    <span class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>Facturen Bon verwerken</h3>
-                                <p>Intermediate</p>
-                            </span>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <span>
-                                <h3>Bestellingen verwerken</h3>
-                                <p>Intermediate</p>
-                            </span>
-                        </article>
+                    <span class="details-container">
+                        <h2 class="experience-sub-title">Assistant Business Services</h2>
+                        <span class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>Facturen Bon verwerken</h3>
+                                    <p>Intermediate</p>
+                                </span>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <span>
+                                    <h3>Bestellingen verwerken</h3>
+                                    <p>Intermediate</p>
+                                </span>
+                            </article>
+                        </span>
                     </span>
-                </span>
-                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                    onclick="location.href='./#projects'" />
+                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+                        onclick="location.href='./#projects'" />
+    </main>
     </section>
+
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
@@ -169,10 +173,12 @@
                     </span>
                     <h2 class="experience-sub-title project-title">Project One</h2>
                     <span class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Live Demo
                         </button>
                     </span>
@@ -183,10 +189,12 @@
                     </span>
                     <h2 class="experience-sub-title project-title">Project Two</h2>
                     <span class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Live Demo
                         </button>
                     </span>
@@ -197,10 +205,12 @@
                     </span>
                     <h2 class="experience-sub-title project-title">Project Three</h2>
                     <span class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/9022624'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/9022624'">
                             Live Demo
                         </button>
                     </span>
